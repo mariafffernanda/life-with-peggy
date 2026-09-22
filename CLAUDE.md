@@ -28,6 +28,16 @@ space. **Do not collapse her into the holistic side.** That was the first draft'
 where some of her Miami group work happens, not all of her work. It belongs in the events page
 and in one line of her bio, never in the hero.
 
+## Palette and Feel
+
+Her own words: nature, terracotta, tree greens, brown, black frames, beige. Elegant, aimed at a
+high end audience, language that is sophisticated and still easy to understand.
+
+Tokens live at the top of `styles.css`: `--beige` page, `--green` deep bands, `--clay` the single
+accent, `--brown`, `--stone`, `--ink` for the frames. **Photographs are hung in thin black
+frames** (`.frame`, and the hero panel), which is the detail that carries the whole look. Do not
+introduce a second accent colour.
+
 ## Stack
 
 Static HTML, CSS and one small script. **No build step, no framework, no package manager.**
@@ -65,7 +75,10 @@ html[data-lang="es"] [lang="en"] { display: none; }
 **Invoke the `authentic-content-writer` skill before writing or changing any text**, either
 language, then apply Brand OS §6. What this page gets wrong most easily:
 
-- No negation-into-affirmation, no CTA phrased as a question, never exactly three items.
+- No negation-into-affirmation, no comparison structures, no CTA phrased as a question, never
+  exactly three items.
+- **No em dashes and no hyphens in prose.** Write "two day training", "one to one". Hyphens
+  inside a trademark such as PSYCH-K® are the only exception.
 - One action. Every button opens the same WhatsApp thread; only the prefilled text differs.
 - No invented facts. See below.
 
@@ -81,9 +94,13 @@ Everything traces to the Brand OS, to magia33.com, to her LinkedIn, or to Mafer 
 - **Reiki Sistémico** — two days with **Francisco Rubio**, Reiki Kahuna master
 - **PSYCH-K® Advanced Facilitator** · **The EMF Balancing Technique®** certified practitioner ·
   **postgraduate training in Bioneuroemoción®** · Reiki Master, Reiki Kahuna lineage
-- **Mastering Connections** — *"A journey with effective communication and emotional
-  intelligence"*, continuing education approved by the Florida DBPR for property managers,
-  presented with **Ball Janik LLP**
+- **Mastering Connections**, her course, described in her own material: *"A journey with
+  effective communication and emotional intelligence."* A DBPR approved continuing education
+  course for **community association managers**, grounded in **Organizational Constellations**,
+  bringing a systemic perspective to leadership, communication and human dynamics in the
+  workplace. It helps managers recognize relational patterns, navigate complex interactions,
+  strengthen professional connections, and lead with greater awareness and intention.
+  **1 continuing education credit, DBPR approved.** Presented with **Ball Janik LLP**
 - English, Spanish and Italian
 - Events: Sept 26, 10:00–15:00, USD 80, Magia 33, 177 NE 44th St, Miami FL 33137 ·
   Oct 17–18, 08:30–18:00, USD 333 deposit
@@ -102,6 +119,9 @@ Everything traces to the Brand OS, to magia33.com, to her LinkedIn, or to Mafer 
 
 ## Photographs
 
+- **Her chosen photographs**, and where they sit: `hero` the dawn portrait in the framed hero
+  panel, `window` the temple window in About, `road` and `open` her two other favourites, in the
+  third side card and the closing band.
 - **Only photographs in which Peggy is the only identifiable person.** The Magia 33 session
   photos show attendees' faces and would need each person's consent. Brand OS §6 rule 7, and the
   strictest rule here. The `speaking` photo is the one exception under review: other attendees
@@ -112,15 +132,15 @@ Everything traces to the Brand OS, to magia33.com, to her LinkedIn, or to Mafer 
 - Each frame is composed differently, so `.side--practice`, `.side--room` and `.side--road` carry
   their own `object-position`. Changing a photo means retuning its focal point.
 
-## The Social Section Is a Placeholder
+## No Social Grid
 
-`#social` is a grid of **her own photographs, not her live feed**, marked as such in an HTML
-comment. Instagram requires login to read a profile, so there is no scraping path.
-**Replace it with a Behold embed** once her account is connected, the same service Mafer's site
-uses. Until then, never describe it in copy as her latest posts.
+A placeholder grid of her own photographs was built and then removed: reusing the same pictures
+across the page made it look repetitive. **The contact block carries plain Instagram, LinkedIn
+and email buttons instead, with no images.**
 
-LinkedIn has no profile-feed widget. Individual posts can be embedded by URL; the section links
-out instead.
+When her Instagram is connected, a **Behold** embed can bring in the real feed, the same service
+Mafer's site uses. Until a live feed exists, do not put pictures in a section that implies one.
+LinkedIn has no profile feed widget; individual posts embed by URL.
 
 ## Contact, Not Booking
 
