@@ -21,7 +21,6 @@ PHOTOS = {
     "window": "WhatsApp Image 2026-09-22 at 16.46.22.jpeg",  # in the temple window
     "road": "DSC_9047.jpg",        # arms open, golden light, upright frame
     "open": "DSC_9046.jpg",        # arms open, wide frame
-    "temple": "DSC_8999.JPG",      # from behind, facing the temple
     "reach": "DSC_9044.JPG",       # seated, arm raised
     "speaking": "1728407623653.jpeg",  # Mastering Connections, Ball Janik
 }

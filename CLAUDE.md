@@ -14,15 +14,22 @@ English is the default. Spanish is one tap away and equal in weight.
 
 ## Who She Is, In Her Own Framing
 
-Her Instagram bio is the positioning the site is built on:
+Her Instagram bio is the language the site borrows:
 
 > Conscious Business · Human Connection · Systemic Work · Family Constellations
 > Facilitator · Teacher · Speaker
 > Finding My Way Home
 
-**Three sides, one person:** the practice (systemic and energy work), the room (conscious
-business taught to professionals), the road (her own travel and search). The site gives each one
-space. **Do not collapse her into the holistic side.** That was the first draft's mistake.
+**Her corporate identity is the ground, not a side note.** She is Director of Business
+Development at Ball Janik LLP, and she coaches, consults and teaches continuing education. Her
+career is what she lives on today; the holistic practice is where her education and that career
+led her, and it will take a larger share later in her working life. A draft that reads as a
+healer who happens to teach a class is wrong, and that mistake has already been made once here.
+
+The page holds two rooms of equal weight: **in organizations** and **with individuals**, and the
+method section is what joins them. Organizational constellations and family constellations are
+the same discipline addressed to different systems, which is the honest bridge between her two
+worlds and the thing no competitor can copy.
 
 **Magia 33 is a venue, not her identity.** It is *Magia 33*, never "Casa Magia 33", and it is
 where some of her Miami group work happens, not all of her work. It belongs in the events page
@@ -44,7 +51,7 @@ Static HTML, CSS and one small script. **No build step, no framework, no package
 
 | File | What it holds |
 |---|---|
-| `index.html` | The main page, both languages |
+| `index.html` | The main page, both languages. Order is deliberate: hero, the two rooms, the method, Mastering Connections, the private practice, who she is, contact. **The professional work comes before the personal practice.** |
 | `events.html` | Dated group work, both languages |
 | `styles.css` | Tokens, layout, responsive rules for both pages |
 | `app.js` | Language toggle, top-bar scroll state, reveal-on-scroll |
@@ -75,8 +82,11 @@ html[data-lang="es"] [lang="en"] { display: none; }
 **Invoke the `authentic-content-writer` skill before writing or changing any text**, either
 language, then apply Brand OS §6. What this page gets wrong most easily:
 
-- No negation-into-affirmation, no comparison structures, no CTA phrased as a question, never
-  exactly three items.
+- No negation-into-affirmation, no comparison structures, no CTA phrased as a question.
+- **Never exactly three of anything.** Not three list items, not three cards, not three clauses
+  in a sentence. She notices it and dislikes it, and it is Brand OS §6 rule 3. Use two or four.
+- **The register is professional and carries weight.** She sells to a high end audience in a
+  legal and property context. Sophisticated, plainly understandable, never breezy.
 - **No em dashes and no hyphens in prose.** Write "two day training", "one to one". Hyphens
   inside a trademark such as PSYCH-K® are the only exception.
 - One action. Every button opens the same WhatsApp thread; only the prefilled text differs.
@@ -89,7 +99,8 @@ Bioneuroemoción®. Family Constellations and Reiki Sistémico take no symbol.
 
 Everything traces to the Brand OS, to magia33.com, to her LinkedIn, or to Mafer directly.
 
-- **More than 15 years** facilitating, across modalities and in different parts of the world
+- **Director of Business Development at Ball Janik LLP**, Miami. She also coaches and consults
+- **More than fifteen years** facilitating, across modalities and in different parts of the world
 - **Family Constellations** — circles of up to 30, no previous experience
 - **Reiki Sistémico** — two days with **Francisco Rubio**, Reiki Kahuna master
 - **PSYCH-K® Advanced Facilitator** · **The EMF Balancing Technique®** certified practitioner ·
@@ -112,8 +123,8 @@ Everything traces to the Brand OS, to magia33.com, to her LinkedIn, or to Mafer 
   energetic healing. The pages say "Reiki Kahuna master" with no number until this is settled.
 - **The Sept 26 event year.** Taken from magia33.com, which lists past events too. Verify before
   a deploy, and remove the card once the date passes.
-- **Her title at Ball Janik LLP.** The firm is named because it appears on her own slide. Her
-  role, Director of Business Development per LinkedIn, is not on the page yet.
+- **Her real estate sales associate licence**, listed on LinkedIn, is not on the page. Ask before
+  adding it; her professional identity there is business development, not brokerage.
 - **A tagline.** "Finding My Way Home" is her Instagram line and appears only as her words in the
   third card. Do not promote it to the hero without her approval.
 
