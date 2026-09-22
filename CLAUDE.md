@@ -20,11 +20,20 @@ Her Instagram bio is the language the site borrows:
 > Facilitator · Teacher · Speaker
 > Finding My Way Home
 
-**Her corporate identity is the ground, not a side note.** She is Director of Business
-Development at Ball Janik LLP, and she coaches, consults and teaches continuing education. Her
-career is what she lives on today; the holistic practice is where her education and that career
-led her, and it will take a larger share later in her working life. A draft that reads as a
-healer who happens to teach a class is wrong, and that mistake has already been made once here.
+**Her corporate identity is the ground, not a side note.** Business development at executive
+level, with coaching, consulting and approved continuing education alongside it. That career is
+what she lives on today; the holistic practice is where her education and that career led her,
+and it will take a larger share later in her working life. A draft that reads as a healer who
+happens to teach a class is wrong, and that mistake has already been made once here.
+
+**Never name her employer or her job title.** She wants the executive standing implied, not
+stated: "executive roles inside Miami's professional services world" is the register. The firm
+was named on the page once and removed at her request. This applies to the course section too,
+even though the firm's logo appears in the photograph on her own slide.
+
+**The balance is the hard part.** Too spiritual and her professional readers discount her. Too
+corporate and the practice looks like a hobby. Every pass over the About section should be
+checked against both failures.
 
 The page holds two rooms of equal weight: **in organizations** and **with individuals**, and the
 method section is what joins them. Organizational constellations and family constellations are
@@ -99,7 +108,7 @@ Bioneuroemoción®. Family Constellations and Reiki Sistémico take no symbol.
 
 Everything traces to the Brand OS, to magia33.com, to her LinkedIn, or to Mafer directly.
 
-- **Director of Business Development at Ball Janik LLP**, Miami. She also coaches and consults
+- **Business development at executive level**, in Miami, with coaching and consulting alongside
 - **More than fifteen years** facilitating, across modalities and in different parts of the world
 - **Family Constellations** — circles of up to 30, no previous experience
 - **Reiki Sistémico** — two days with **Francisco Rubio**, Reiki Kahuna master
@@ -111,7 +120,7 @@ Everything traces to the Brand OS, to magia33.com, to her LinkedIn, or to Mafer 
   bringing a systemic perspective to leadership, communication and human dynamics in the
   workplace. It helps managers recognize relational patterns, navigate complex interactions,
   strengthen professional connections, and lead with greater awareness and intention.
-  **1 continuing education credit, DBPR approved.** Presented with **Ball Janik LLP**
+  **1 continuing education credit, DBPR approved.**
 - English, Spanish and Italian
 - Events: Sept 26, 10:00–15:00, USD 80, Magia 33, 177 NE 44th St, Miami FL 33137 ·
   Oct 17–18, 08:30–18:00, USD 333 deposit
@@ -127,6 +136,12 @@ Everything traces to the Brand OS, to magia33.com, to her LinkedIn, or to Mafer 
   adding it; her professional identity there is business development, not brokerage.
 - **A tagline.** "Finding My Way Home" is her Instagram line and appears only as her words in the
   third card. Do not promote it to the hero without her approval.
+
+## Two Details She Asked For By Name
+
+- **Credentials are an index, not bullets.** Hairline rules, no dash markers, no symbols. She
+  rejected the bulleted treatment on sight.
+- **Photographs hang in thin black frames.** Keep it.
 
 ## Photographs
 
