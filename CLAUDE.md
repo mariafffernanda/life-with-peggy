@@ -61,14 +61,15 @@ Static HTML, CSS and one small script. **No build step, no framework, no package
 | File | What it holds |
 |---|---|
 | `index.html` | The main page, both languages. Order is deliberate: hero, the two rooms, the method, Mastering Connections, the private practice, who she is, contact. **The professional work comes before the personal practice.** |
-| `events.html` | Dated group work, both languages |
+| `events/index.html` | Dated group work, both languages. Served at `/events`, so its asset paths are absolute |
 | `styles.css` | Tokens, layout, responsive rules for both pages |
 | `app.js` | Language toggle, top-bar scroll state, reveal-on-scroll |
 | `tools/optimize-images.py` | Source photos into web-sized WebP + JPEG, plus square crops |
 | `assets/img/` | Generated images. Never hand-edit; re-run the script |
 
-Run it: `python3 -m http.server 4321`. **The browser caches aggressively on localhost** — add a
-query string (`?v=2`) when a change does not appear.
+Run it: `python3 -m http.server 4321`. **The browser caches aggressively on localhost**, so add
+a query string (`?v=2`) when a change does not appear. `/events` works locally and in production
+because the dates page is a directory, which is also why its asset paths start with a slash.
 
 ## How the Two Languages Work
 

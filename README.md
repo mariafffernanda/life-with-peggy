@@ -1,7 +1,7 @@
 # Peggy Vivas — landing page
 
-Static bilingual landing page. No build step: `index.html`, `styles.css`, `app.js`
-and pre-optimized images in `assets/img/`.
+Static bilingual site. No build step: `index.html`, `events/index.html`, `styles.css`,
+`app.js` and pre-optimized images in `assets/img/`.
 
 ## Run it locally
 
@@ -18,5 +18,6 @@ the page uses, edit the `PHOTOS` map in `tools/optimize-images.py` and run:
 ## Deploy
 
 Push to `main`. Vercel builds nothing and serves the files as they are.
+Live at https://life-with-peggy.vercel.app
 
 See `CLAUDE.md` for the rules that govern content changes.
