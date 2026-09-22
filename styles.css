@@ -265,19 +265,27 @@ a { color: inherit; }
   margin-top: 2.2rem;
 }
 
-/* credentials read as a quiet index, not a bulleted list */
-.creds {
+/* credentials read as a quiet index, grouped, not a bulleted list */
+.creds { margin: 2.4rem 0 0; max-width: var(--measure); }
+.creds__group + .creds__group { margin-top: 1.9rem; }
+.creds__label {
+  font-size: 0.68rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--clay);
+  margin: 0 0 0.55rem;
+}
+.creds ul {
   list-style: none;
-  margin: 2.4rem 0 0;
+  margin: 0;
   padding: 0;
-  max-width: var(--measure);
   border-top: 1px solid rgba(20, 18, 15, 0.16);
 }
 .creds li {
   font-size: 0.92rem;
   line-height: 1.5;
   color: var(--ink-soft);
-  padding: 0.85rem 0;
+  padding: 0.7rem 0;
   border-bottom: 1px solid rgba(20, 18, 15, 0.16);
 }
 
@@ -480,7 +488,8 @@ a { color: inherit; }
   .card__meta { margin-bottom: 0.8rem; }
 
   .creds { margin-top: 1.6rem; }
-  .creds li { padding: 0.65rem 0; font-size: 0.86rem; }
+  .creds__group + .creds__group { margin-top: 1.4rem; }
+  .creds li { padding: 0.58rem 0; font-size: 0.86rem; }
 
   .pull { margin-top: 1.5rem; padding-left: 1rem; font-size: 1.08rem; }
   .course { margin-top: 1.1rem; }

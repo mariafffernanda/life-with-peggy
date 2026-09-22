@@ -99,6 +99,9 @@ language, then apply Brand OS §6. What this page gets wrong most easily:
 - **No em dashes and no hyphens in prose.** Write "two day training", "one to one". Hyphens
   inside a trademark such as PSYCH-K® are the only exception.
 - One action. Every button opens the same WhatsApp thread; only the prefilled text differs.
+- **Every WhatsApp prefill is written in English, in both language modes.** Peggy reads English
+  first, and a Spanish message arriving from an English reader confused the thread. Do not make
+  the prefill follow the toggle.
 - No invented facts. See below.
 
 **Trademarks, written exactly this way:** PSYCH-K®, The EMF Balancing Technique®,
@@ -139,14 +142,16 @@ Everything traces to the Brand OS, to magia33.com, to her LinkedIn, or to Mafer 
 
 ## The About Section Is a Biography
 
-It carries the weight of the page, and it has been rewritten three times. What works: two kinds
-of rooms over fifteen years, the training as something that accumulated alongside the career and
-gave her language for what she was already watching, then the two running together now. It ends
-on her own line, finding my way home, which is the only personal note the page makes and earns
-its place because she wrote it.
+**The current copy was written and approved by the client. Do not rewrite it on your own
+judgement.** It was rewritten four times before it landed, so treat it as settled: two kinds of
+rooms over fifteen years, the training as language for what she had already been watching, the
+two running together now, then the grouped credentials, then her own line.
 
-Keep it profound and plain. No inner life she has not described herself, no origin story, no
-spiritual register, no corporate register.
+If it must change, keep it profound and plain. No inner life she has not described herself, no
+origin story, no spiritual register, no corporate register.
+
+**The credentials are grouped** under Professional, Training and certifications, and Languages.
+Terracotta labels, hairline rules, no markers.
 
 ## Mobile Is Tighter Than Desktop On Purpose
 
