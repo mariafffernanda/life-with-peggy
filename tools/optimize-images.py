@@ -23,8 +23,6 @@ PHOTOS = {
     "open": "DSC_9046.jpg",        # arms open, wide frame
     "temple": "DSC_8999.JPG",      # from behind, facing the temple
     "reach": "DSC_9044.JPG",       # seated, arm raised
-    "seated": "DSC_9041.jpg",      # seated, backlit
-    "portrait": "DSC_9002.JPG",    # looking back at camera
     "speaking": "1728407623653.jpeg",  # Mastering Connections, Ball Janik
 }
 WIDTHS = (800, 1400, 2000)
