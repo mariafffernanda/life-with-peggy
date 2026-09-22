@@ -137,6 +137,23 @@ Everything traces to the Brand OS, to magia33.com, to her LinkedIn, or to Mafer 
 - **A tagline.** "Finding My Way Home" is her Instagram line and appears only as her words in the
   third card. Do not promote it to the hero without her approval.
 
+## The About Section Is a Biography
+
+It carries the weight of the page, and it has been rewritten three times. What works: two kinds
+of rooms over fifteen years, the training as something that accumulated alongside the career and
+gave her language for what she was already watching, then the two running together now. It ends
+on her own line, finding my way home, which is the only personal note the page makes and earns
+its place because she wrote it.
+
+Keep it profound and plain. No inner life she has not described herself, no origin story, no
+spiritual register, no corporate register.
+
+## Mobile Is Tighter Than Desktop On Purpose
+
+Under 620px the whole scale steps down: smaller type, shorter blocks, landscape crops, lighter
+card padding. The default scale read as oversized boxes on a phone and hid the shape of the
+page. Most visitors arrive from her Instagram bio, so **check a change on a phone first.**
+
 ## Two Details She Asked For By Name
 
 - **Credentials are an index, not bullets.** Hairline rules, no dash markers, no symbols. She
