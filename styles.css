@@ -325,8 +325,8 @@ a { color: inherit; }
 .sides { display: grid; gap: clamp(1.75rem, 4vw, 2.75rem); }
 .side img { aspect-ratio: 4 / 5; object-fit: cover; transition: transform 0.6s ease; }
 .side:hover img { transform: scale(1.03); }
-.side--room img { object-position: 58% 52%; }
-.side--road img { object-position: 50% 64%; }
+.side--room img { object-position: 50% 60%; }
+.side--circle img { object-position: 50% 50%; }
 .side h3 { margin: 1.4rem 0 0.6rem; }
 .side p { color: var(--ink-soft); font-size: 0.97rem; }
 
@@ -479,6 +479,12 @@ a { color: inherit; }
   .band__after { margin-top: 1.2rem; }
 
   .split { gap: 1.5rem; }
+  /* one landscape shape for every framed photo, so the page does not
+     jump between tall, square and wide pictures as it scrolls */
+  .split__media img { aspect-ratio: 3 / 2; object-fit: cover; }
+  .split__media--talk img { object-position: 50% 40%; }
+  .split__media--speaking img { object-position: 50% 58%; }
+  .split__media--window img { object-position: 62% 74%; }
   .sides { gap: 1.5rem; }
   .side img { aspect-ratio: 3 / 2; }
   .side h3 { margin: 0.9rem 0 0.4rem; }
@@ -496,6 +502,10 @@ a { color: inherit; }
   .credit { margin-top: 1.3rem; }
 
   .closing { min-height: 0; }
+  /* the side gradient leaves the right of a narrow screen bright under
+     the text, so on a phone the whole photo is darkened evenly */
+  .closing::after { background: rgba(20, 28, 22, 0.72); }
+  .closing__media img { object-position: 62% 45%; }
   .closing__body { padding-block: 3.2rem; }
   .closing__body p { margin-bottom: 1.4rem; }
   .elsewhere { gap: 0.6rem; margin-top: 1.5rem; }

@@ -156,8 +156,9 @@ Terracotta labels, hairline rules, no markers.
 
 ## Mobile Is Tighter Than Desktop On Purpose
 
-Under 620px the whole scale steps down: smaller type, shorter blocks, landscape crops, lighter
-card padding. The default scale read as oversized boxes on a phone and hid the shape of the
+Under 620px the whole scale steps down: smaller type, shorter blocks, lighter card padding, and
+**every framed photo cropped to 3:2**, so the page does not jump between tall, square and wide
+pictures. The closing band darkens evenly there so its text stays readable. The default scale read as oversized boxes on a phone and hid the shape of the
 page. Most visitors arrive from her Instagram bio, so **check a change on a phone first.**
 
 ## Two Details She Asked For By Name
@@ -169,17 +170,24 @@ page. Most visitors arrive from her Instagram bio, so **check a change on a phon
 ## Photographs
 
 - **Her chosen photographs**, and where they sit: `hero` the dawn portrait in the framed hero
-  panel, `window` the temple window in About, `road` and `open` her two other favourites, in the
-  third side card and the closing band.
+  panel, `window` the temple window in About, `open` in the closing band, `venue` (a ballroom
+  of professionals) and `circle` (a Magia 33 circle) in the two side cards, `talk` in the method,
+  `speaking` in Mastering Connections. `venue`, `circle` and `talk` were chosen by the producer.
+- **Every photograph appears once.** `speaking` used to sit in a side card and in the course
+  section, and `road` (DSC_9047) is the same moment as `open` from one burst; both read as
+  duplicates on a phone and were replaced. Check near-identical frames, not only filenames.
 - **Only photographs in which Peggy is the only identifiable person.** The Magia 33 session
   photos show attendees' faces and would need each person's consent. Brand OS §6 rule 7, and the
-  strictest rule here. The `speaking` photo is the one exception under review: other attendees
+  strictest rule here. **Exception, 2026-09-24:** the producer confirmed consent for everyone in
+  `venue`, `circle` and `talk`. That covers those three files only, not the rest of the shoot. The `speaking` photo is the one exception under review: other attendees
   are visible at the edges of the frame, so confirm before it goes public.
 - Sources live outside the repo in `../media/`. Only generated files are committed.
 - **Always regenerate through `tools/optimize-images.py`.** It bakes EXIF rotation into the
   pixels; WebP does not carry orientation and several originals are stored sideways.
-- Each frame is composed differently, so `.side--practice`, `.side--room` and `.side--road` carry
-  their own `object-position`. Changing a photo means retuning its focal point.
+- Each frame is composed differently, so `.side--room`, `.side--circle` and each
+  `.split__media--*` carry their own `object-position`. Changing a photo means retuning it.
+- **The script keeps every file under 150 KB** by stepping quality down, and writes a native
+  width size only for sources under 1400px when it fits (currently `hero-1138`).
 
 ## No Social Grid
 
