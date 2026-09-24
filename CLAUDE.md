@@ -171,15 +171,15 @@ page. Most visitors arrive from her Instagram bio, so **check a change on a phon
 
 - **Her chosen photographs**, and where they sit: `hero` the dawn portrait in the framed hero
   panel, `window` the temple window in About, `open` in the closing band, `venue` (a ballroom
-  of professionals) and `circle` (a Magia 33 circle) in the two side cards, `talk` in the method,
-  `speaking` in Mastering Connections. `venue`, `circle` and `talk` were chosen by the producer.
+  of professionals) and `circle` (a Magia 33 circle) in the two side cards, `dawn` in the method,
+  `speaking` in Mastering Connections. The producer chose all three.
 - **Every photograph appears once.** `speaking` used to sit in a side card and in the course
   section, and `road` (DSC_9047) is the same moment as `open` from one burst; both read as
   duplicates on a phone and were replaced. Check near-identical frames, not only filenames.
 - **Only photographs in which Peggy is the only identifiable person.** The Magia 33 session
   photos show attendees' faces and would need each person's consent. Brand OS §6 rule 7, and the
   strictest rule here. **Exception, 2026-09-24:** the producer confirmed consent for everyone in
-  `venue`, `circle` and `talk`. That covers those three files only, not the rest of the shoot. The `speaking` photo is the one exception under review: other attendees
+  `venue` and `circle` (and `talk`, since retired). That covers those files only, not the rest of the shoot. The `speaking` photo is the one exception under review: other attendees
   are visible at the edges of the frame, so confirm before it goes public.
 - Sources live outside the repo in `../media/`. Only generated files are committed.
 - **Always regenerate through `tools/optimize-images.py`.** It bakes EXIF rotation into the

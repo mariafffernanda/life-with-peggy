@@ -482,7 +482,7 @@ a { color: inherit; }
   /* one landscape shape for every framed photo, so the page does not
      jump between tall, square and wide pictures as it scrolls */
   .split__media img { aspect-ratio: 3 / 2; object-fit: cover; }
-  .split__media--talk img { object-position: 50% 40%; }
+  .split__media--dawn img { object-position: 55% 82%; }
   .split__media--speaking img { object-position: 50% 58%; }
   .split__media--window img { object-position: 62% 74%; }
   .sides { gap: 1.5rem; }

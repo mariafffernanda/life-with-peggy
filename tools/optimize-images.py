@@ -25,7 +25,7 @@ PHOTOS = {
     "speaking": LANDING + "1728407623653.jpeg",  # Mastering Connections
     "venue": LANDING + "1698155008820.jpeg",     # ballroom of professionals, In organizations
     "circle": MAGIA + "CASA MAGIA 33-52.jpg",    # the circle at Magia 33, With individuals
-    "talk": MAGIA + "CASA MAGIA 33-15.jpg",      # two women talking before the mural, the method
+    "dawn": LANDING + "DSC_9041.jpg",            # seated on the stone at dawn, the method
 }
 WIDTHS = (800, 1400, 2000)
 BUDGET = 150 * 1024  # bytes per file
