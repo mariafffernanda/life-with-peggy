@@ -1,7 +1,7 @@
 # Peggy Vivas — Landing Page CLAUDE.md
 
-Rules for this repo. The brand is defined one level up, in `../Peggy_Brand_OS_v4_master.md` and
-`../CLAUDE.md` — read those before writing copy. **200 lines per file, 250 when cutting costs
+Rules for this repo. The brand is defined in `brand/Peggy_Brand_OS_v4_master.md` (a copy of the
+workspace original one level up, `../Peggy_Brand_OS_v4_master.md`) — read it before writing copy. **200 lines per file, 250 when cutting costs
 something.**
 
 ## What This Is
